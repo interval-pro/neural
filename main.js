@@ -5,9 +5,9 @@ const { saveModel, loadModel } = require('./save-load.js');
 
 const nn = new NN(2, [10, 10], 1);
 
-nn.train(data, 1000, 0.1); 
-saveModel('./model.json', nn);
+nn.train(data, 1000, 0.1);
 
+// saveModel('./model.json', nn);
 // Or load a model
 //loadModel('./model.json', nn);
 
